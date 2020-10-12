@@ -41,7 +41,7 @@ export default function App() {
       <Switch>
 
         {/*  one route that will take an `id` parameter after`/movies/` (ex: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component. */}
-        <Route path={`/movies/${movieList.id}`}>
+        <Route path={`/movies/:movieID`}>
           <Movie />
         </Route>
 
