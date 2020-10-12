@@ -36,6 +36,9 @@ Once you are done your application will have two routes:
   * [ ] one route for `/` that loads the `MovieList` component. This component will need the movies injected into it via props.
   * [ ] one route that will take an `id` parameter after`/movies/` (ex: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
 
+
+
+
 #### Add Functionality
 
 * [ ] When a user clicks on the movie card inside `MovieList` they should be taken to `/movies/{id of clicked movie here}` to see the details of the selected movie.
